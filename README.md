@@ -14,7 +14,7 @@ and there are two type argument of HugeInt ctor :
 (2) For string argument : HugeInt z("314159265358979323846")  */
 
 
-</B>when execute this program </B>
+#when execute this program
 
 
 you need to enter a large interger 
@@ -35,7 +35,7 @@ so, the result will be my computer's max long long int's number */
        
 
 
-</B>The running script</B>
+#The running script
 
 
 pd2vm@pd2vm-VirtualBox ~/lab5 $ ./lab5
