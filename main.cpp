@@ -1,6 +1,5 @@
 #include<iostream>
 #include<string>
-#include<sstream>
 #include"lab5.h"
 using namespace std;
 
