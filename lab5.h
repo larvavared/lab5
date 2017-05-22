@@ -1,5 +1,4 @@
 #include<iostream>
-#include<string>
 using namespace std;
 
 
@@ -9,11 +8,12 @@ class HugeInt{
 	
 	public:
 		HugeInt (long long int = 28825252); //ctor
-		HugeInt (string); //ctor
+		HugeInt (string str); //ctor
 		~HugeInt(); //dtor
 		HugeInt  operator + ( HugeInt &right);
 		HugeInt  operator - ( HugeInt &right);
+		
 	private:
-		long long int x;
+		int *ptr;
 		string y;
 };
