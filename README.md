@@ -25,32 +25,17 @@ and then you can see the result of your enter number plus  HugeInt y(28825252)
 
 and the result of HugeInt z("314159265358979323846") minus HugeInt y(28825252) 
 
-
-
-/*Since for HugeInt z("314159265358979323846") , the result of this integer is out of range to my computer
-
-so, the result will be my computer's max long long int's number */
-
                           
-       
-
 
 #The running script
 
 
-pd2vm@pd2vm-VirtualBox ~/lab5 $ ./lab5
+./lab5
+999999989
 
+999999989+28825252 = 1028825241
+314159265357979323857
 
-99999999
-
-
-99999999+28825252 = 128825251
-
-
-9223372036754775808
-
-
-pd2vm@pd2vm-VirtualBox ~/lab5 $ exit
 
 
 
